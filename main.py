@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher
 from aiogram import F
 from aiogram.filters import Command
 
-from handlers import payment
+from Tg_Stars_bot.handlers import payment
 
 bot = Bot("8063915434:AAFzC7TxH-918uuoUx3tMcDDXhRQswdvCJo")
 dp = Dispatcher()
